@@ -28,7 +28,7 @@ const person3 = {
     city: 'Berlin'
   };
   
-  const {n,...rest } = person3;
+  const {n, ...rest } = person3;
   
   console.log(n);  
   console.log(rest);  
